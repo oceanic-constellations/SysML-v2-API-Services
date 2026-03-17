@@ -64,3 +64,6 @@ GET           /assets/*file                                                     
 GET           /docs/                                                                                 controllers.Assets.at(path="/public/docs", file="index.html")
 GET           /docs/*file                                                                            controllers.Assets.at(path="/public/docs", file)
 GET           /jsonld/*file                                                                          controllers.Assets.at(path="/public/jsonld", file)
+
+GET           /system-model/                                                                         controllers.Assets.at(path="/public/system-model", file="index.html")
+GET           /system-model/*file                                                                    controllers.Assets.at(path="/public/system-model", file)
