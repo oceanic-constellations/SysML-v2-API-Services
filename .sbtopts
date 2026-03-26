@@ -1,2 +1,6 @@
 -J-Xms512m
--J-Xmx4g
+-J-Xmx1536m
+-J-XX:+UseG1GC
+-J-XX:+HeapDumpOnOutOfMemoryError
+-J-XX:HeapDumpPath=/home/oc/SysML-server/logs/heapdump.hprof
+-J-Xlog:gc*:file=/home/oc/SysML-server/logs/gc.log:time,level,tags:filecount=3,filesize=10m
